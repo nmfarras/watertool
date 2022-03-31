@@ -1,4 +1,10 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900,300,500,600,800|Poppins:500,600|Inter:500,600");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/622ccc2a95eb9f318f89ede0.622ccc2dfb43ac4b95fb3fb5.PfMAeyy.hcp.png");
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +41,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

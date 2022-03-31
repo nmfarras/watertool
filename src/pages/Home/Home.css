@@ -1,0 +1,1497 @@
+/* div .mask-group {
+  background-image: url("../../img/mask-group@1x.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  height: 1000px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 1920px;
+} */
+
+.home .mask-group {
+  background-color: transparent;
+  /* background-image: url("../../img/mask-group@1x.svg"); */
+  height: 999.984px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 1920px;
+}
+
+.home .group-1-b8DrbD {
+  background-color: transparent;
+  height: 269px;
+  left: 112px;
+  position: absolute;
+  top: 271px;
+  width: 819px;
+}
+
+.home {
+  background-color: var(--white);
+  height: 4152px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.home .valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home .mask-group-b8DrbD {
+  background-color: transparent;
+  height: 1000px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 1920px;
+}
+
+.home .nav-top-bar-desktop-b8DrbD {
+  background-color: var(--alabaster-2);
+  box-shadow: 0px 1px 20px #00000040;
+  height: 80px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.home .home-b8DrbD {
+  background-color: var(--white);
+  border-radius: 13px;
+  box-shadow: 0px 4px 10px #00000040;
+  height: 689px;
+  left: 1054px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 235px;
+  width: 711px;
+}
+
+.home .pertamina-logo-1-w7qd80 {
+  background-color: transparent;
+  height: 190px;
+  left: -0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: -0px;
+  width: 815px;
+}
+
+.home .pha-w7qd80 {
+  background-color: transparent;
+  color: var(--alizarin-crimson);
+  font-family: var(--font-family-roboto);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  height: 47px;
+  left: 291px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 166px;
+  width: 140px;
+}
+
+.home .process-hazard-analysis-w7qd80 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 900;
+  height: auto;
+  left: 293px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 222px;
+  width: 392px;
+}
+
+/* perlu edit */
+.home .rectangle-4-xl4bh6 {
+  background-color: var(--science-blue-2);
+  border-radius: 13px;
+  height: 575px;
+  left: 146px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 252px;
+  width: 782px;
+}
+
+.home .rectangle-5-xl4bh6 {
+  background-color: var(--science-blue-2);
+  height: 575px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1080px;
+  width: 1920px;
+}
+
+.home .pertamina-logo_watertools-01-xl4bh6 {
+  background-color: transparent;
+  height: 218px;
+  left: 1056px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 402px;
+  width: 654px;
+}
+
+.home .button-blue-static-xl4bh6 {
+  background-color: var(--white);
+  border-radius: 7px;
+  cursor: pointer;
+  height: 56px;
+  left: 214px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 723px;
+  transition: all 0.2s ease;
+  width: 404px;
+}
+
+.home .button-blue-static-xl4bh6:hover {
+  background-color: #ed1b2f
+}
+
+.home .button-R0zxGu {
+  background-color: transparent;
+  cursor: pointer;
+  height: 24px;
+  left: 41px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .button-R0zxGu:hover {
+  color: #ffffff
+}
+
+.home .pertamina-water-tools-xl4bh6 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+  height: 64px;
+  left: 218px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 305px;
+  width: 507px;
+}
+
+.home .berkerja-demi-kemajuan-bangsa-xl4bh6 {
+  background-color: transparent;
+  color: var(--science-blue-2);
+  font-family: var(--font-family-roboto);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 800;
+  height: 67px;
+  left: 146px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2643px;
+  width: 1629px;
+}
+
+.home .dengan-berkurangnya-xl4bh6 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+  height: 252px;
+  left: 288px;
+  letter-spacing: 0.00px;
+  line-height: 63px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: justify;
+  top: 1209px;
+  width: 1345px;
+}
+
+.home .pengelolaan-sumber-daya-air-pertamina-xl4bh6 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+  height: 74px;
+  left: 218px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 387px;
+  width: 507px;
+}
+
+.home .pengelolaan-sumber-daya-air-pertamina-efo9xP {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+  height: 74px;
+  left: 288px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1461px;
+  width: 507px;
+}
+
+.home .water-tools-risk-ass-xl4bh6 {
+  background-color: transparent;
+  height: auto;
+  left: 214px;
+  letter-spacing: 0.00px;
+  line-height: 34px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: justify;
+  top: 479px;
+  width: 647px;
+}
+
+.home .cidouble-quotes-r-xl4bh6 {
+  background-color: transparent;
+  height: 142px;
+  left: 1633px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1335px;
+  width: 142px;
+}
+
+.home .cidouble-quotes-l-xl4bh6 {
+  background-color: transparent;
+  height: 144px;
+  left: 146px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1154px;
+  width: 144px;
+}
+
+.home .rectangle-6-xl4bh6 {
+  background-color: #efefef;
+  height: 878px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1655px;
+  width: 1920px;
+}
+
+.home .accordions-xl4bh6 {
+  background-color: transparent;
+  height: 611px;
+  left: 146px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1788px;
+  width: 830px;
+}
+
+.home .accordion-VHxCDW {
+  background-color: var(--science-blue-2);
+  border-radius: 13px;
+  height: 296px;
+  left: 2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 825px;
+}
+
+.home .frame-3-riPnLP {
+  background-color: transparent;
+  height: 64px;
+  left: 28px;
+  position: absolute;
+  top: 15px;
+  width: 782px;
+}
+
+.home .medical-iconsocial-services-vBpIho {
+  background-color: transparent;
+  height: 48px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 8px;
+  width: 48px;
+}
+
+.home .tanggung-jawab-sosial-perusahaan-vBpIho {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  height: 64px;
+  left: 89px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 605px;
+}
+
+.home .group-2-vBpIho {
+  background-color: transparent;
+  height: 47px;
+  left: 735px;
+  position: absolute;
+  top: 8px;
+  width: 47px;
+}
+
+.home .ellipse-1-5xIhqr {
+  background-color: var(--white);
+  border-radius: 23.5px;
+  height: 47px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 47px;
+}
+
+.home .vector-5xIhqr {
+  background-color: transparent;
+  height: 27px;
+  left: 18px;
+  position: absolute;
+  top: 10px;
+  width: 16px;
+}
+
+.home .sebagai-perusahaan-e-riPnLP {
+  background-color: transparent;
+  height: auto;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 34px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: justify;
+  top: 120px;
+  width: 755px;
+}
+
+.home .accordion-eepdpy {
+  background-color: var(--white);
+  border-radius: 13px;
+  height: 94px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 307px;
+  width: 829px;
+}
+
+.home .frame-3-cZLEQa {
+  background-color: transparent;
+  height: 64px;
+  left: 28px;
+  position: relative;
+  top: 15px;
+  width: 786px;
+}
+
+.home .icon-home-UHLo98 {
+  background-color: transparent;
+  height: 47px;
+  left: -1px;
+  position: absolute;
+  top: 8px;
+  width: 52px;
+}
+
+.home .tanggung-jawab-sosial-perusahaan-UHLo98 {
+  background-color: transparent;
+  height: 64px;
+  left: 93px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 605px;
+}
+
+.home .group-2-UHLo98 {
+  background-color: transparent;
+  height: 47px;
+  left: 739px;
+  position: absolute;
+  top: 8px;
+  width: 47px;
+}
+
+.home .ellipse-1-7NEYfP {
+  background-color: var(--science-blue-2);
+  border-radius: 23.5px;
+  height: 47px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 47px;
+}
+
+.home .vector-7NEYfP {
+  background-color: transparent;
+  height: 27px;
+  left: 17px;
+  position: absolute;
+  top: 10px;
+  width: 16px;
+}
+
+.home .accordion-Garo2g {
+  background-color: var(--white);
+  border-radius: 13px;
+  height: 94px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 412px;
+  width: 830px;
+}
+
+.home .frame-3-cFxnkl {
+  background-color: transparent;
+  height: 64px;
+  left: 28px;
+  position: relative;
+  top: 15px;
+  width: 787px;
+}
+
+.home .clarityemployee-solid-CRlHs1 {
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 5px;
+  width: 53px;
+}
+
+.home .tanggung-jawab-sosial-perusahaan-CRlHs1 {
+  background-color: transparent;
+  height: 64px;
+  left: 94px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 605px;
+}
+
+.home .group-2-CRlHs1 {
+  background-color: transparent;
+  height: 47px;
+  left: 740px;
+  position: absolute;
+  top: 8px;
+  width: 47px;
+}
+
+.home .ellipse-1-p6uLFO {
+  background-color: var(--science-blue-2);
+  border-radius: 23.5px;
+  height: 47px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 47px;
+}
+
+.home .vector-p6uLFO {
+  background-color: transparent;
+  height: 27px;
+  left: 17px;
+  position: absolute;
+  top: 10px;
+  width: 16px;
+}
+
+.home .accordion-ZgRstV {
+  background-color: var(--white);
+  border-radius: 13px;
+  height: 94px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 517px;
+  width: 830px;
+}
+
+.home .frame-3-qFPsF2 {
+  background-color: transparent;
+  height: 64px;
+  left: 28px;
+  position: relative;
+  top: 15px;
+  width: 786px;
+}
+
+.home .icround-local-fire-department-ye2cI4 {
+  background-color: transparent;
+  height: 52px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 6px;
+  width: 52px;
+}
+
+.home .tanggung-jawab-sosial-perusahaan-ye2cI4 {
+  background-color: transparent;
+  height: 64px;
+  left: 93px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 605px;
+}
+
+.home .group-2-ye2cI4 {
+  background-color: transparent;
+  height: 47px;
+  left: 739px;
+  position: absolute;
+  top: 8px;
+  width: 47px;
+}
+
+.home .ellipse-1-3ArSxF {
+  background-color: var(--science-blue-2);
+  border-radius: 23.5px;
+  height: 47px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 47px;
+}
+
+.home .vector-3ArSxF {
+  background-color: transparent;
+  height: 27px;
+  left: 17px;
+  position: absolute;
+  top: 10px;
+  width: 16px;
+}
+
+.home .study-case-xl4bh6 {
+  background-color: transparent;
+  height: 64px;
+  left: 1065px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1794px;
+  width: 507px;
+}
+
+.home .masyarakat-xl4bh6 {
+  background-color: transparent;
+  height: 34px;
+  left: 357px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3237px;
+  width: 315px;
+}
+
+.home .lingkungan-xl4bh6 {
+  background-color: transparent;
+  height: 34px;
+  left: 800px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3237px;
+  width: 315px;
+}
+
+.home .kebijakan-xl4bh6 {
+  background-color: transparent;
+  height: 34px;
+  left: 1244px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3237px;
+  width: 315px;
+}
+
+.home .kami-menghargai-komu-xl4bh6 {
+  background-color: transparent;
+  height: auto;
+  left: 329px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3298px;
+  width: 373px;
+}
+
+.home .studi-kasus-pengguna-xl4bh6 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 1065px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1876px;
+  width: 507px;
+}
+
+.home .pelestarian-alam-lin-xl4bh6 {
+  background-color: transparent;
+  height: auto;
+  left: 772px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3298px;
+  width: 373px;
+}
+
+.home .perusahaan-berkerja-xl4bh6 {
+  background-color: transparent;
+  height: auto;
+  left: 1216px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3298px;
+  width: 373px;
+}
+
+.home .lorem-ipsum-dolor-si-xl4bh6 {
+  background-color: transparent;
+  height: auto;
+  left: 1066px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: justify;
+  top: 1967px;
+  width: 708px;
+}
+
+.home .button-blue-static-efo9xP {
+  background-color: #ed1b2f;
+  border-radius: 7px;
+  cursor: pointer;
+  height: 56px;
+  left: 1066px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 2343px;
+  transition: all 0.2s ease;
+  width: 708px;
+}
+
+.home .button-blue-static-efo9xP:hover {
+  background-color: #006CB7
+}
+
+.home .button-m4ciLK {
+  background-color: transparent;
+  color: var(--white);
+  font-style: normal;
+  font-weight: 600;
+  height: 24px;
+  left: 240px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .frame-15-xl4bh6 {
+  background-color: transparent;
+  height: 351px;
+  left: 783px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2839px;
+  width: 351px;
+}
+
+.home .ellipse-3-cYEbUc {
+  background-color: #acc32a;
+  border-radius: 175.5px;
+  height: 351px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 351px;
+}
+
+.home .elleaf-cYEbUc {
+  background-color: transparent;
+  height: 171px;
+  left: 90px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 90px;
+  width: 171px;
+}
+
+.home .frame-14-xl4bh6 {
+  background-color: transparent;
+  height: 351px;
+  left: 339px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2839px;
+  width: 351px;
+}
+
+.home .ellipse-2-dtydqj {
+  background-color: var(--science-blue);
+  border-radius: 175.5px;
+  height: 351px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 351px;
+}
+
+.home .fa6-solidpeople-group-dtydqj {
+  background-color: transparent;
+  height: 192px;
+  left: 56px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 69px;
+  width: 240px;
+}
+
+.home .frame-16-xl4bh6 {
+  background-color: transparent;
+  height: 351px;
+  left: 1227px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2839px;
+  width: 351px;
+}
+
+.home .ellipse-4-EsEkeX {
+  background-color: #004b80;
+  border-radius: 175.5px;
+  height: 351px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 351px;
+}
+
+.home .octiconlaw-16-EsEkeX {
+  background-color: transparent;
+  height: 171px;
+  left: 90px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 90px;
+  width: 171px;
+}
+
+.home .footer-xl4bh6 {
+  background-color: transparent;
+  height: 539px;
+  left: 1px;
+  position: absolute;
+  top: 3613px;
+  width: 1920px;
+}
+
+.home .rectangle-82-peWZqm {
+  background-color: var(--science-blue);
+  height: 539px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.home .rectangle-86-peWZqm {
+  background-color: var(--white);
+  height: 3px;
+  left: 168px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 443px;
+  width: 1504px;
+}
+
+.home .group-99-peWZqm {
+  background-color: transparent;
+  height: 76px;
+  left: 168px;
+  position: absolute;
+  top: 51px;
+  width: 258px;
+}
+
+.home .our-website-lLUsRq {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 252px;
+}
+
+.home .kebijakan-privasi-lLUsRq {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 31px;
+  width: 251px;
+}
+
+.home .waspada-penipuan-lLUsRq {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 58px;
+  width: 251px;
+}
+
+.home .copyright-pt-pertami-peWZqm {
+  background-color: transparent;
+  height: auto;
+  left: 169px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 455px;
+  width: 438px;
+}
+
+.home .group-100-peWZqm {
+  background-color: transparent;
+  height: 130px;
+  left: 439px;
+  position: absolute;
+  top: 51px;
+  width: 262px;
+}
+
+.home .tools-eW6awX {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 252px;
+}
+
+.home .tko-eW6awX {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 31px;
+  width: 251px;
+}
+
+.home .tki-eW6awX {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 58px;
+  width: 251px;
+}
+
+.home .stk-eW6awX {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 85px;
+  width: 251px;
+}
+
+.home .dokumen-eW6awX {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 112px;
+  width: 251px;
+}
+
+.home .group-101-peWZqm {
+  background-color: transparent;
+  height: 130px;
+  left: 708px;
+  position: absolute;
+  top: 51px;
+  width: 262px;
+}
+
+.home .announcement-MxGxY1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 252px;
+}
+
+.home .pertamina-info-MxGxY1 {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 31px;
+  width: 251px;
+}
+
+.home .pengadaan-umum-MxGxY1 {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 58px;
+  width: 251px;
+}
+
+.home .pengumuman-MxGxY1 {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 85px;
+  width: 251px;
+}
+
+.home .e-procurement-MxGxY1 {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 112px;
+  width: 251px;
+}
+
+.home .group-102-peWZqm {
+  background-color: transparent;
+  height: 76px;
+  left: 977px;
+  position: absolute;
+  top: 51px;
+  width: 258px;
+}
+
+.home .network-pwYOFv {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 252px;
+}
+
+.home .anak-perusahaan-pwYOFv {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 31px;
+  width: 251px;
+}
+
+.home .alamat-kantor-pwYOFv {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 58px;
+  width: 251px;
+}
+
+.home .group-103-peWZqm {
+  background-color: transparent;
+  height: 234px;
+  left: 1246px;
+  position: absolute;
+  top: 51px;
+  width: 432px;
+}
+
+.home .contact-xEve1C {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 252px;
+}
+
+.home .pertamina-xEve1C {
+  background-color: transparent;
+  height: auto;
+  left: 284px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 202px;
+  width: 138px;
+}
+
+.home .x135-xEve1C {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: 252px;
+}
+
+.home .address-jl-medan-mer-xEve1C {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 126px;
+  width: 398px;
+}
+
+.home .email-pcc135pertaminacom-xEve1C {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 151px;
+  width: 361px;
+}
+
+.home .group-111-peWZqm {
+  background-color: transparent;
+  height: 42px;
+  left: 1246px;
+  position: absolute;
+  top: 243px;
+  width: 42px;
+}
+
+.home .ellipse-4-UpaUNB {
+  background-color: var(--white);
+  border-radius: 21px;
+  height: 42px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 42px;
+}
+
+.home .vector-UpaUNB {
+  background-color: transparent;
+  height: 20px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 11px;
+  width: 11px;
+}
+
+.home .group-112-peWZqm {
+  background-color: transparent;
+  height: 42px;
+  left: 1296px;
+  position: absolute;
+  top: 243px;
+  width: 42px;
+}
+
+.home .ellipse-4-Y0traY {
+  background-color: var(--white);
+  border-radius: 21px;
+  height: 42px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 42px;
+}
+
+.home .vector-Y0traY {
+  background-color: transparent;
+  height: 18px;
+  left: 10px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 12px;
+  width: 22px;
+}
+
+.home .group-113-peWZqm {
+  background-color: transparent;
+  height: 42px;
+  left: 1349px;
+  position: absolute;
+  top: 243px;
+  width: 42px;
+}
+
+.home .ellipse-4-1bZPRj {
+  background-color: var(--white);
+  border-radius: 21px;
+  height: 42px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 42px;
+}
+
+.home .vector-1bZPRj {
+  background-color: transparent;
+  height: 20px;
+  left: 11px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 11px;
+  width: 20px;
+}
+
+.home .vector-AnRaxM {
+  background-color: transparent;
+  height: 10px;
+  left: 16px;
+  position: absolute;
+  top: 15px;
+  width: 10px;
+}
+
+.home .vector-KO65Io {
+  background-color: transparent;
+  height: 2px;
+  left: 25px;
+  position: absolute;
+  top: 14px;
+  width: 2px;
+}
+
+.home .group-114-peWZqm {
+  background-color: transparent;
+  height: 42px;
+  left: 1399px;
+  position: absolute;
+  top: 243px;
+  width: 42px;
+}
+
+.home .ellipse-4-JrzqJe {
+  background-color: var(--white);
+  border-radius: 21px;
+  height: 42px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 42px;
+}
+
+.home .vector-JrzqJe {
+  background-color: transparent;
+  height: 2px;
+  left: 25px;
+  position: absolute;
+  top: 14px;
+  width: 2px;
+}
+
+.home .vector-fEHouF {
+  background-color: transparent;
+  height: 15px;
+  left: 10px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 14px;
+  width: 22px;
+}
+
+.home .vector-nrn4rD {
+  background-color: transparent;
+  height: 7px;
+  left: 19px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 19px;
+  width: 6px;
+}
+
+.home .group-115-peWZqm {
+  background-color: transparent;
+  height: 42px;
+  left: 1452px;
+  position: absolute;
+  top: 243px;
+  width: 42px;
+}
+
+.home .ellipse-4-AxXslX {
+  background-color: var(--white);
+  border-radius: 21px;
+  height: 42px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 42px;
+}
+
+.home .vector-AxXslX {
+  background-color: transparent;
+  height: 2px;
+  left: 25px;
+  position: absolute;
+  top: 14px;
+  width: 2px;
+}
+
+.home .vector-3LHg3v {
+  background-color: transparent;
+  height: 7px;
+  left: 19px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 19px;
+  width: 6px;
+}
+
+.home .vector-U4YEfE {
+  background-color: transparent;
+  height: 13px;
+  left: 19px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 12px;
+}
+
+.home .vector-JXhABd {
+  background-color: transparent;
+  height: 12px;
+  left: 11px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 17px;
+  width: 4px;
+}
+
+.home .vector-RMzrBG {
+  background-color: transparent;
+  height: 4px;
+  left: 11px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 10px;
+  width: 4px;
+}
+
+.home .rectangle-87-peWZqm {
+  background-color: var(--white);
+  height: 42px;
+  left: 1515px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 243px;
+  width: 4px;
+}
