@@ -34,7 +34,7 @@ const LoginPopUp = () => {
               <div className="text-nvMgcy">
                 <div className="frame-8-crV5vx">
                   <div className="dont-haven-an-account-Pipgr5 valign-text-middle">
-                    Don’t haven an account?
+                    Don`t haven an account?
                   </div>
                 </div>
                 <div className="frame-10-crV5vx">
@@ -55,14 +55,14 @@ const LoginPopUp = () => {
               <a href="javascript:history.back()">
                 <img className="vector-nvMgcy" src="" />{" "}
               </a>
-              <a href="dashboard-1.html">
+              <Link to="/dashboard">
                 <div className="buttonxl-nvMgcy">
                   <div className="btn-B8dMoh">
                     <div className="btn-4FVqXD"></div>
                     <div className="send-4FVqXD valign-text-middle">MASUK</div>
                   </div>
                 </div>
-              </a>
+              </Link>
               <div className="frame-24-nvMgcy">
                 <img
                   className="foto-homepage-bawah-tentang-kami-1-pDawc2"

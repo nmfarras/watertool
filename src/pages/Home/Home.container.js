@@ -1,124 +1,40 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import { Link } from "react-router-dom";
+// import axios from "axios";
 
 // import TransactionForm from '../../components/TransactionForm/TransactionForm.component';
 
 import "./Home.css";
 
-// import logo1X from "../../img/pertamina-logo-1-9@1x.png";
-// import maskGroup from "../../img/mask-group@1x.svg";
 import Header from "../../components/Header/Header.component";
 import LoginPopUp from "../../components/HomeComponents/LoginPopUp/LoginPopUp.component";
 
+import logo1X from "../../img/Home/pertamina-logo-watertools-01@1x.png";
+import quoteR from "../../img/Home/ci-double-quotes-r@2x.svg";
+import quoteL from "../../img/Home/ci-double-quotes-l@2x.svg";
+import homeIco from "../../img/Home/group@2x.svg";
+import medIco from "../../img/Home/medical-icon-social-services@2x.svg";
+import octIco from "../../img/Home/octicon-law-16@2x.svg";
+import employeeIco from "../../img/Home/clarity-employee-solid@2x.svg";
+import fireIco from "../../img/Home/ic-round-local-fire-department@2x.svg";
+import natureIco from "../../img/Home/el-leaf@2x.svg";
+import communityIco from "../../img/Home/fa6-solid-people-group@2x.svg";
+
+import arrowIco from "../../img/Home/vector-4@2x.svg";
+import arrowIco1 from "../../img/Home/vector-5@2x.svg";
+import arrowIco2 from "../../img/Home/vector-6@2x.svg";
+import arrowIco3 from "../../img/Home/vector-8@2x.svg";
+import arrowIco4 from "../../img/Home/vector-9@2x.svg";
+import arrowIco5 from "../../img/Home/vector-10@2x.svg";
+import arrowIco6 from "../../img/Home/vector-11@2x.svg";
+import arrowIco7 from "../../img/Home/vector-12@2x.svg";
+import arrowIco8 from "../../img/Home/vector-14@2x.svg";
+import arrowIco9 from "../../img/Home/vector-15@2x.svg";
+import arrowIco10 from "../../img/Home/vector-18@2x.svg";
+import arrowIco11 from "../../img/Home/vector-19@2x.svg";
+import arrowIco12 from "../../img/Home/vector-20@2x.svg";
+
 const Home = () => {
-  // const [selects, setSelects] = useState(0);
-  // const [customer, setCustomer] = useState([]);
-  // // const [customerWallets, setCustomerWallets] = useState([]);
-  // const [isLoading, setIsLoading] = useState(true);
-
-  // function onSelected(props) {
-  //     setSelects(props.target.value)
-  // }
-
-  // const fetchCustomer = async () => {
-  //     const { data } = await axios.get('http://localhost:8080/customers')
-
-  //     setCustomer(data);
-  //     setIsLoading(false);
-  //     // setCustomerWallets(getWalletList(1))
-  // }
-
-  // useEffect(() => {
-  //     fetchCustomer()
-  // }, [])
-
-  // const onSubmit = async (transaction) => {
-
-  //     const json = JSON.stringify({
-  //         "toWalletId": transaction.toWalletId,
-  //         "amount": transaction.amount,
-  //         "note": transaction.note,
-  //     });
-  //     // console.log(json)
-
-  //     try {
-  //         console.log(transaction.transactionType)
-  //         if (transaction.transactionType === "Transfer") {
-  //             const res = await axios.post(
-  //                 ` http://localhost:8080/customers/1/transfer/${transaction.fromWalletId} `,
-  //                 json
-  //                 , {
-  //                     headers: {
-  //                         'Content-Type': 'application/json',
-  //                     }
-  //                 }
-  //             );
-  //             console.log(res);
-  //         }
-
-  //         if (transaction.transactionType === "Top Up") {
-  //             const res = await axios.post(
-  //                 ` http://localhost:8080/customers/1/top-up/ `,
-  //                 json
-  //                 , {
-  //                     headers: {
-  //                         'Content-Type': 'application/json',
-  //                     }
-  //                 }
-  //             );
-  //             // console.log('Top-Up');
-  //             console.log(res);
-  //         }
-
-  //         fetchCustomer()
-  //         alert('success')
-  //     } catch (error) {
-  //         alert(error.message)
-  //         console.log(error);
-  //     }
-  // }
-
-  // const [isOpen, setIsOpen] = useState(false);
-
-  // function Overlay() {
-  //   if (!isOpen) return null;
-  //   return (
-  //     <div
-  //       style={{
-  //         background: "rgba(0,0,0,.3)",
-  //         // position: "fixed",
-  //         // zIndex: 1,
-  //         // top: "0",
-  //         // right: "0",
-  //         // bottom: "0",
-  //         // left: "0",
-  //         opacity: !isOpen ? "0" : "1",
-  //         transition: "all .2s",
-  //         visibility: !isOpen ? "hidden" : "visible",
-  //       }}
-  //     >
-  //       {renderComponent(LoginPopUp)}
-  //     </div>
-  //   );
-  // }
-
-  // const renderComponent = (Component) => {
-  //   return <Component />;
-  //   console.log("yeay");
-  // };
-
-  // const handleLogin = () => {
-  //   setIsOpen(!isOpen);
-  //   console.log(isOpen);
-  // };
-
-  // const renderCards = (Component) => {
-  //   let cards =  this.props.list.map(function(cardData){
-  //      return <Component data={cardData}/>
-  //    })
-  //   return cards
-  // }
-
   const [popUp, setPopUp] = useState(false);
 
   useEffect(() => {
@@ -134,26 +50,15 @@ const Home = () => {
   return (
     <div className="container-center-horizontal">
       <div className="home screen">
-        {/* {popUp && <LoginPopUp />} */}
         <Header handleOnClick={() => setPopUp(true)} />
 
-        {/* <div className="information-wrapper">
-          <button
-            className="information"
-            onClick={() => setPopUp(true)}
-            type="button"
-          >
-            more information
-          </button>
-          {popUp && <LoginPopUp />}
-        </div> */}
         {popUp && <LoginPopUp />}
 
         <div className="rectangle-4-xl4bh6"></div>
         <div className="rectangle-5-xl4bh6"></div>
         <img
           className="pertamina-logo_watertools-01-xl4bh6"
-          src="img/pertamina-logo-watertools-01@1x.png"
+          src={logo1X}
         />
         <div
         // href="javascript:ShowOverlay('login', 'animate-appear');"
@@ -190,11 +95,11 @@ const Home = () => {
         </div>
         <img
           className="cidouble-quotes-r-xl4bh6"
-          src="img/ci-double-quotes-r@2x.svg"
+          src={quoteR}
         />
         <img
           className="cidouble-quotes-l-xl4bh6"
-          src="img/ci-double-quotes-l@2x.svg"
+          src={quoteL}
         />
         <div className="rectangle-6-xl4bh6"></div>
         <div className="accordions-xl4bh6">
@@ -202,14 +107,14 @@ const Home = () => {
             <div className="frame-3-riPnLP">
               <img
                 className="medical-iconsocial-services-vBpIho"
-                src="img/medical-icon-social-services@2x.svg"
+                src={medIco}
               />
               <div className="tanggung-jawab-sosial-perusahaan-vBpIho valign-text-middle">
                 Tanggung Jawab Sosial Perusahaan
               </div>
               <div className="group-2-vBpIho">
                 <div className="ellipse-1-5xIhqr"></div>
-                <img className="vector-5xIhqr" src="img/vector-4@2x.svg" />
+                <img className="vector-5xIhqr" src={arrowIco} />
               </div>
             </div>
             <div className="sebagai-perusahaan-e-riPnLP roboto-normal-white-20px">
@@ -222,13 +127,13 @@ const Home = () => {
           </div>
           <div className="accordion-eepdpy">
             <div className="frame-3-cZLEQa">
-              <img className="icon-home-UHLo98" src="img/group@2x.svg" />
+              <img className="icon-home-UHLo98" src={homeIco} />
               <div className="tanggung-jawab-sosial-perusahaan-UHLo98 valign-text-middle roboto-extra-bold-science-blue-27px">
                 Pertamina Village
               </div>
               <div className="group-2-UHLo98">
                 <div className="ellipse-1-7NEYfP"></div>
-                <img className="vector-7NEYfP" src="img/vector-5@2x.svg" />
+                <img className="vector-7NEYfP" src={arrowIco1} />
               </div>
             </div>
           </div>
@@ -236,14 +141,14 @@ const Home = () => {
             <div className="frame-3-cFxnkl">
               <img
                 className="clarityemployee-solid-CRlHs1"
-                src="img/clarity-employee-solid@2x.svg"
+                src={employeeIco}
               />
               <div className="tanggung-jawab-sosial-perusahaan-CRlHs1 valign-text-middle roboto-extra-bold-science-blue-27px">
                 Employee Volunteerism
               </div>
               <div className="group-2-CRlHs1">
                 <div className="ellipse-1-p6uLFO"></div>
-                <img className="vector-p6uLFO" src="img/vector-6@2x.svg" />
+                <img className="vector-p6uLFO" src={arrowIco2} />
               </div>
             </div>
           </div>
@@ -251,14 +156,14 @@ const Home = () => {
             <div className="frame-3-qFPsF2">
               <img
                 className="icround-local-fire-department-ye2cI4"
-                src="img/ic-round-local-fire-department@2x.svg"
+                src={fireIco}
               />
               <div className="tanggung-jawab-sosial-perusahaan-ye2cI4 valign-text-middle roboto-extra-bold-science-blue-27px">
                 Disaster Management
               </div>
               <div className="group-2-ye2cI4">
                 <div className="ellipse-1-3ArSxF"></div>
-                <img className="vector-3ArSxF" src="img/vector-6@2x.svg" />
+                <img className="vector-3ArSxF" src={arrowIco2} />
               </div>
             </div>
           </div>
@@ -307,20 +212,20 @@ const Home = () => {
         </div>
         <div className="frame-15-xl4bh6">
           <div className="ellipse-3-cYEbUc"></div>
-          <img className="elleaf-cYEbUc" src="img/el-leaf@2x.svg" />
+          <img className="elleaf-cYEbUc" src={natureIco} />
         </div>
         <div className="frame-14-xl4bh6">
           <div className="ellipse-2-dtydqj"></div>
           <img
             className="fa6-solidpeople-group-dtydqj"
-            src="img/fa6-solid-people-group@2x.svg"
+            src={communityIco}
           />
         </div>
         <div className="frame-16-xl4bh6">
           <div className="ellipse-4-EsEkeX"></div>
           <img
             className="octiconlaw-16-EsEkeX"
-            src="img/octicon-law-16@2x.svg"
+            src={octIco}
           />
         </div>
         <div className="footer-xl4bh6">
@@ -390,31 +295,31 @@ const Home = () => {
           </div>
           <div className="group-111-peWZqm">
             <div className="ellipse-4-UpaUNB"></div>
-            <img className="vector-UpaUNB" src="img/vector-8@2x.svg" />
+            <img className="vector-UpaUNB" src={arrowIco3} />
           </div>
           <div className="group-112-peWZqm">
             <div className="ellipse-4-Y0traY"></div>
-            <img className="vector-Y0traY" src="img/vector-9@2x.svg" />
+            <img className="vector-Y0traY" src={arrowIco4} />
           </div>
           <div className="group-113-peWZqm">
             <div className="ellipse-4-1bZPRj"></div>
-            <img className="vector-1bZPRj" src="img/vector-10@2x.svg" />
-            <img className="vector-AnRaxM" src="img/vector-11@2x.svg" />
-            <img className="vector-KO65Io" src="img/vector-12@2x.svg" />
+            <img className="vector-1bZPRj" src={arrowIco5} />
+            <img className="vector-AnRaxM" src={arrowIco6} />
+            <img className="vector-KO65Io" src={arrowIco7} />
           </div>
           <div className="group-114-peWZqm">
             <div className="ellipse-4-JrzqJe"></div>
-            <img className="vector-JrzqJe" src="img/vector-12@2x.svg" />
-            <img className="vector-fEHouF" src="img/vector-14@2x.svg" />
-            <img className="vector-nrn4rD" src="img/vector-15@2x.svg" />
+            <img className="vector-JrzqJe" src={arrowIco7} />
+            <img className="vector-fEHouF" src={arrowIco8} />
+            <img className="vector-nrn4rD" src={arrowIco9} />
           </div>
           <div className="group-115-peWZqm">
             <div className="ellipse-4-AxXslX"></div>
-            <img className="vector-AxXslX" src="img/vector-12@2x.svg" />
-            <img className="vector-3LHg3v" src="img/vector-15@2x.svg" />
-            <img className="vector-U4YEfE" src="img/vector-18@2x.svg" />
-            <img className="vector-JXhABd" src="img/vector-19@2x.svg" />
-            <img className="vector-RMzrBG" src="img/vector-20@2x.svg" />
+            <img className="vector-AxXslX" src={arrowIco7} />
+            <img className="vector-3LHg3v" src={arrowIco9} />
+            <img className="vector-U4YEfE" src={arrowIco10} />
+            <img className="vector-JXhABd" src={arrowIco11} />
+            <img className="vector-RMzrBG" src={arrowIco12} />
           </div>
           <div className="rectangle-87-peWZqm"></div>
         </div>
