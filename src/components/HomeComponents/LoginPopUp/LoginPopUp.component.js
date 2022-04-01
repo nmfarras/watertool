@@ -10,8 +10,7 @@ const LoginPopUp = () => {
       {/* <div id="overlay-login" className="overlay" style={{
           background: "rgba(0,0,0,.3)",
           minHeight: "4152px",
-        }}>
-        <div className="container-center-horizontal"> */}
+        }}> */}
         <div className="container-center-horizontal">
           <div id="overlay-login" className="login screen" style={{ position: 'relative', zIndex: '1', minHeight: '4152px'}}>
             <div className="login-b8DrbD">
@@ -72,8 +71,7 @@ const LoginPopUp = () => {
             </div>
           </div>
           </div>
-        {/* </div>
-      </div> */}
+        {/* </div> */}
     </div>
   );
 };

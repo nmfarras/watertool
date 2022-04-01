@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./Header.css";
 
@@ -27,7 +27,7 @@ const Header = (props) => {
         </div>
 
         <div className="frame-11-9o0X3L">
-          <a href="home.html">
+          <Link to="/">
             <div className="nav-item-components-desktop-CgKoyE">
               <div className="nav-item-components-uvGtxX">
                 <div className="nav-item-NdEGi3">
@@ -41,7 +41,7 @@ const Header = (props) => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
           <div className="nav-item-components-desktop-Y2yBlx">
             <div className="nav-item-components-QvI8II">
               <div className="nav-item-DRkt7e">
