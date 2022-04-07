@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/watertool/static/css/main.d99e01b9.css",
-    "main.js": "/watertool/static/js/main.a842be39.js",
+    "main.css": "/watertool/static/css/main.c70ad541.css",
+    "main.js": "/watertool/static/js/main.df61fa67.js",
     "static/js/787.d585d52b.chunk.js": "/watertool/static/js/787.d585d52b.chunk.js",
     "static/media/foto-homepage-bawah-tentang-kami-1@1x.png": "/watertool/static/media/foto-homepage-bawah-tentang-kami-1@1x.ab805f1cb698ce5f7cd7.png",
+    "static/media/world-water-day--banner--landscape---1@1x.png": "/watertool/static/media/world-water-day--banner--landscape---1@1x.98d6f7f73d777bc1763c.png",
     "static/media/pertamina-logo-watertools-01@1x.png": "/watertool/static/media/pertamina-logo-watertools-01@1x.03a4fcb68befc6903207.png",
     "static/media/medical-icon-social-services@2x.svg": "/watertool/static/media/medical-icon-social-services@2x.7a76afad2d1b340593dedb8b02e66d96.svg",
     "static/media/octicon-law-16@2x.svg": "/watertool/static/media/octicon-law-16@2x.16352feeff6ba35eaa70c3de7932ec2c.svg",
@@ -37,12 +38,12 @@
     "static/media/line-4@1x.svg": "/watertool/static/media/line-4@1x.540080eaff982fba3bd2d911aeef9126.svg",
     "static/media/vector-15@2x.svg": "/watertool/static/media/vector-15@2x.b777ec8c1714c574c875fad0a35b64f0.svg",
     "static/media/vector-19@2x.svg": "/watertool/static/media/vector-19@2x.46f0cc2a4ffa8a4de30ead46b85f55bf.svg",
-    "main.d99e01b9.css.map": "/watertool/static/css/main.d99e01b9.css.map",
-    "main.a842be39.js.map": "/watertool/static/js/main.a842be39.js.map",
+    "main.c70ad541.css.map": "/watertool/static/css/main.c70ad541.css.map",
+    "main.df61fa67.js.map": "/watertool/static/js/main.df61fa67.js.map",
     "787.d585d52b.chunk.js.map": "/watertool/static/js/787.d585d52b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d99e01b9.css",
-    "static/js/main.a842be39.js"
+    "static/css/main.c70ad541.css",
+    "static/js/main.df61fa67.js"
   ]
 }
