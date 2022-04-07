@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/watertool/static/css/main.c70ad541.css",
-    "main.js": "/watertool/static/js/main.df61fa67.js",
+    "main.js": "/watertool/static/js/main.f3186113.js",
     "static/js/787.d585d52b.chunk.js": "/watertool/static/js/787.d585d52b.chunk.js",
     "static/media/foto-homepage-bawah-tentang-kami-1@1x.png": "/watertool/static/media/foto-homepage-bawah-tentang-kami-1@1x.ab805f1cb698ce5f7cd7.png",
     "static/media/world-water-day--banner--landscape---1@1x.png": "/watertool/static/media/world-water-day--banner--landscape---1@1x.98d6f7f73d777bc1763c.png",
@@ -39,11 +39,11 @@
     "static/media/vector-15@2x.svg": "/watertool/static/media/vector-15@2x.b777ec8c1714c574c875fad0a35b64f0.svg",
     "static/media/vector-19@2x.svg": "/watertool/static/media/vector-19@2x.46f0cc2a4ffa8a4de30ead46b85f55bf.svg",
     "main.c70ad541.css.map": "/watertool/static/css/main.c70ad541.css.map",
-    "main.df61fa67.js.map": "/watertool/static/js/main.df61fa67.js.map",
+    "main.f3186113.js.map": "/watertool/static/js/main.f3186113.js.map",
     "787.d585d52b.chunk.js.map": "/watertool/static/js/787.d585d52b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c70ad541.css",
-    "static/js/main.df61fa67.js"
+    "static/js/main.f3186113.js"
   ]
 }
